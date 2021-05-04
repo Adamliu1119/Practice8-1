@@ -9,6 +9,7 @@ namespace Practice8_1 {
     public partial class Practice8_1 : System.Web.UI.Page {
         protected void Page_Load(object sender, EventArgs e) {
 
+            UnobtrusiveValidationMode = UnobtrusiveValidationMode.None;
         }
     }
 }
